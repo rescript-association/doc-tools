@@ -2,3 +2,4 @@ _esy
 _output
 node_modules
 .merlin
+doc-tools.install
