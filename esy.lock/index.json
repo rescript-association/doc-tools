@@ -1,5 +1,5 @@
 {
-  "checksum": "819df069b6614e1a239b11d7a1040f13",
+  "checksum": "e865984542178f432dc267580af1c7d7",
   "root": "bs-doc@link-dev:./package.json",
   "node": {
     "ocaml@4.6.1000@d41d8cd9": {
@@ -28,7 +28,7 @@
       "overrides": [],
       "dependencies": [
         "ocaml@4.6.1000@d41d8cd9",
-        "@opam/odoc@github:odis-labs/odoc:ocaml-4.06.json#a762f09@d41d8cd9",
+        "@opam/odoc@github:odis-labs/odoc:ocaml-4.06.json#b3960b2f08ad9a0f2130110bc50dcd4e1514027f@d41d8cd9",
         "@opam/cmdliner@opam:1.0.2@1c17346c"
       ],
       "devDependencies": [
@@ -359,14 +359,17 @@
         "@opam/dune@opam:1.3.0@7b4ddff4"
       ]
     },
-    "@opam/odoc@github:odis-labs/odoc:ocaml-4.06.json#a762f09@d41d8cd9": {
+    "@opam/odoc@github:odis-labs/odoc:ocaml-4.06.json#b3960b2f08ad9a0f2130110bc50dcd4e1514027f@d41d8cd9": {
       "id":
-        "@opam/odoc@github:odis-labs/odoc:ocaml-4.06.json#a762f09@d41d8cd9",
+        "@opam/odoc@github:odis-labs/odoc:ocaml-4.06.json#b3960b2f08ad9a0f2130110bc50dcd4e1514027f@d41d8cd9",
       "name": "@opam/odoc",
-      "version": "github:odis-labs/odoc:ocaml-4.06.json#a762f09",
+      "version":
+        "github:odis-labs/odoc:ocaml-4.06.json#b3960b2f08ad9a0f2130110bc50dcd4e1514027f",
       "source": {
         "type": "install",
-        "source": [ "github:odis-labs/odoc:ocaml-4.06.json#a762f09" ]
+        "source": [
+          "github:odis-labs/odoc:ocaml-4.06.json#b3960b2f08ad9a0f2130110bc50dcd4e1514027f"
+        ]
       },
       "overrides": [],
       "dependencies": [

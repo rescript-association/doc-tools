@@ -1,19 +1,23 @@
 {
-    "name": "bs-doc",
-    "version": "0.2.0",
-    "description": "Generate documentation for Bucklescript libraries.",
-    "license": "MIT",
-    "esy": {
-      "build": "dune build --profile=release"
-    },
-    "dependencies": {
-      "@opam/odoc": "github:odis-labs/odoc:ocaml-4.06.json#a762f09",
-      "@opam/cmdliner": "*",
-      "ocaml": "~4.6.1"
-    },
-    "devDependencies": {
-      "ocaml": "~4.6.1",
-      "@opam/dune": "*",
-      "@opam/merlin": "*"
-    }
+  "name": "bs-doc",
+  "version": "0.2.0",
+  "description": "Generate documentation for Bucklescript libraries.",
+  "license": "MIT",
+  "esy": {
+    "build": "dune build --profile=release"
+  },
+  "dependencies": {
+    "@opam/odoc": "*",
+    "@opam/cmdliner": "*",
+    "ocaml": "~4.6.1"
+  },
+  "resolutions": {
+    "@opam/odoc": "github:odis-labs/odoc:ocaml-4.06.json#b3960b2f08ad9a0f2130110bc50dcd4e1514027f",
+    "@opam/odoc-local": "link:../odoc/ocaml-4.06.json"
+  },
+  "devDependencies": {
+    "ocaml": "~4.6.1",
+    "@opam/dune": "*",
+    "@opam/merlin": "*"
   }
+}
